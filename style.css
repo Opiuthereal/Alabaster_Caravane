@@ -1,0 +1,393 @@
+/* File used for styling all that will appear in index.html*/
+
+* {
+    background: none;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: url("déplacement/fond.png");
+    background-size:cover;
+}
+
+#total{
+    background-image: url("déplacement/fond.png");
+    background-size:cover;
+}
+
+.all{
+    width: 100%;
+    margin: 0px;
+}
+
+
+
+.available{
+   width: 50px;
+   height:  20px;
+}
+
+
+
+#Bag{
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+
+
+.BagCss{
+    width: 107.78px;
+    height: 107.78px;
+}
+
+#ban {
+    width: 100%;
+    height: 76px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+
+}
+
+
+#Case{
+    width: 100%;
+    height: 15%;
+    margin-bottom: 5% ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+#cav {
+    width: 100%;
+}
+
+.buy {
+    height: 75%;
+    width: 15%;
+}
+
+
+
+#central {
+    width: 68%;
+    height: 100%;
+    border-radius: 10px;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    overflow-x: auto;
+}
+
+
+
+#detailobjectcenter{
+    display: flex;
+}
+
+
+
+#detailobjectcharacteristics{
+    width: 619.5px;
+    height: 100px;
+    margin: 30px;
+    margin-top: 56px;
+}
+
+
+
+#detailobjectdescription{
+    width:100%;
+}
+
+
+
+#detailobjectimage{
+    height: 120px;
+    width: 120px;
+    background: green;
+    margin-top: 56px;
+}
+
+#deb {
+    height: 100%;
+    width: 36px;
+    background-image: url("déplacement/money.png");
+    background-size: contain;
+}
+
+
+
+.nom{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+#people{
+    width: 76px;
+    height: 76px;
+    background-image: url("déplacement/troup.png");
+    background-size: contain;
+}
+
+#events{
+    width: 100%;
+    margin: 0px;
+}
+
+
+
+#eventsbutton{
+    width: 100%;
+    height: 50px;
+}
+
+
+
+#eventsimage{
+    height:230px;
+    width: 100%;
+    margin: 0px;
+    background: sandybrown;
+}
+
+
+
+#eventstext{
+    width: 100%;
+    height: 150px;
+    margin-top: -30px;
+    background: green;
+}
+
+
+
+#left{
+    width: 16%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+#m{
+    width: 100%;
+}
+
+
+
+#MembersButton{
+    height: 32%;
+    width: 100%;
+}
+
+
+
+#movement{
+    width: 100%;
+    margin: 0px;
+}
+
+
+
+#price{
+    height: 75%;
+    width: 50%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+
+
+.prix{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.volume{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+
+.product{
+    height: 75%;
+    width: 15%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+
+
+#quantity{
+    height: 30%;
+    width: 50%;
+    margin-top: 22%;
+    margin-left: 25%; 
+}
+
+#right {
+    width: 16%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+#return{
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+}
+
+
+
+#stats{
+    height: 100%;
+    width: 15%;
+}
+
+
+
+#StatsUnit{
+    height:75px;
+    width: 50%;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+
+
+#StatsUnitSpecial{
+    height:75px;
+    width: 50%;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+
+
+#StatsUnitFinal{
+    height:75px;
+    width: 100%;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+
+#total {
+    width: 100%;
+    height: 528.88px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#Vente{
+    height: 50px;
+    width: 89%;
+}
+
+
+
+
+#head {
+    margin-top: 0px;
+    height: 37px;
+    width: 1024px;
+    margin-left: 9%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background-image: url("déplacement/Baniere.png");
+    background-size:contain;
+    display: flex;
+}
+
+#troup {
+    height: 100%;
+    width: 36px;
+    background-image: url("déplacement/troup.png");
+    background-size: contain;
+}
+
+#wat {
+    height: 100%;
+    width: 36px;
+    background-image: url("déplacement/goutte.png");
+    background-size: contain;
+}
+
+#questionnaire {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.question {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.question label {
+    width: 150px;
+}
+.question input {
+    width: 50px;
+}
+
+#auth{
+    background-image: url('déplacement/Authorité.png');
+    height: 100%;
+    width: 36px;
+    background-size: contain;
+}
+
+#food{
+    background-image: url('déplacement/food.png');
+    height: 100%;
+    width: 36px;
+    background-size: contain;
+}
+
+#FamT{
+    background-image: url('déplacement/famineT.png');
+    height: 100%;
+    width: 36px;
+    background-size: contain;
+}
+#mor{
+    background-image: url('déplacement/moral.png');
+    height: 100%;
+    width: 36px;
+    background-size: contain; 
+}

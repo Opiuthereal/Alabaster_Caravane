@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <title>Caravane</title>
+        <link rel="stylesheet" href="style.css">
+        <script defer src="variables.js"></script>
+        <script defer src="ressources.js"></script>
+        <script defer src="testTableMoveInclude.js"></script>
+        <script defer src="game.js"></script>
+        <script defer src="buy.js"></script> 
+        <script defer src="sell.js"></script> 
+        <script defer src="eventListener.js"></script>
+    </head>
+
+    <body>
+        <!--the top row (that will display some ressources)-->
+        <audio id="background-audio" src="déplacement/main.mp3" loop></audio>
+        <div id="head">
+            <div id="troup"></div> <span id="crew">20</span> 
+            <div id="wat"></div> <span id="water">50</span> 
+            <div id="mor"></div> <span id="morale">50</span>% 
+            <div id="deb"></div> <span id="debens">1000</span> 
+            <div id="auth"></div> <span id="authority">10</span> 
+            <div id="FamT"></div> <span id="famineTurns">0</span> 
+            <div id="food"></div> <span id="rations">80</span> 
+        </div>
+
+        <div id="total">
+            <!-- button use to show different things from what is happening right now in the game--> 
+            <div id="left">
+                <button id="cav"> Caravane </button>
+                <button class="all"> Scout </button>
+                <button id="movement"> Movement </button>
+            </div>
+            <div id="central">
+            </div> <!-- div central use to show what is going in the game--> 
+
+            <!-- button use to show different things from what is happening right now in the game--> 
+            <div id="right">
+                <button id="events"> Events </button>
+                <button class="all" id="assignate"> Assignate </button>
+                <button id="Bag"> Bag </button>
+            </div>
+        </div>
+        <!-- button use when you need help to understand game rules--> 
+        <button id="resolve">Help Me!</button>
+    </body>
+
+</html>
